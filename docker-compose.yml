@@ -1,0 +1,81 @@
+version: '2'
+services:
+  kong-db:
+    image: postgres:9.6
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=kong
+      - POSTGRES_PASSWORD=kong
+    ports:
+      - 5432:5432
+    networks:
+      - kong-net
+  kong-migration:
+    image: kong
+    depends_on:
+      - kong-db
+    environment:
+      - KONG_DATABASE=postgres
+      - KONG_PG_HOST=kong-db
+      - KONG_PG_DATABASE=postgres
+      - KONG_PG_PASSWORD=kong
+    networks:
+      - kong-net
+    command: kong migrations bootstrap
+  kong:
+    image: kong
+    environment:
+      KONG_PROXY_ACCESS_LOG: /dev/stdout
+      KONG_PROXY_ERROR_LOG: /dev/stdout
+      KONG_ADMIN_ACCESS_LOG: /dev/stdout
+      KONG_ADMIN_ERROR_LOG: /dev/stdout
+      KONG_PROXY_LISTEN: 0.0.0.0:80, 0.0.0.0:8443 http2 ssl
+      KONG_ADMIN_LISTEN: 0.0.0.0:8001, 0.0.0.0:8444 ssl
+      KONG_LUA_SSL_TRUSTED_CERTIFICATE: system
+      KONG_PG_HOST: kong-db
+      KONG_PG_PORT: 5432
+      KONG_PG_SCHEMA: public
+      KONG_DATABASE: postgres
+      KONG_PG_DATABASE: postgres
+      KONG_PG_USER: kong
+      KONG_PG_PASSWORD: kong
+      #KONG_SSL_CERT: /ssl/ssl/kong-default-ecdsa.crt
+      #KONG_SSL_CERT_KEY: /ssl/ssl/kong-default-ecdsa.key
+    depends_on:
+      - kong-db
+      - kong-migration
+    ports:
+      - 80:80
+      - 443:8443
+      - 8443:8443
+      - 8001:8001
+      - 8444:8444
+    networks:
+      - kong-net
+    volumes:
+      - ./certs:/ssl
+  
+  konga:
+    image: pantsel/konga
+    environment:
+      - DB_ADAPTER=postgres
+      - DB_HOST=kong-db
+      - DB_PORT=5432
+      - DB_USER=kong
+      - DB_PASSWORD=kong
+      - DB_DATABASE=postgres
+    ports:
+      - 1337:1337
+    networks:
+      - kong-net
+    links:
+      - kong:kong
+    
+networks:
+  kong-net:
+    external: false
+
+    
+
+
+

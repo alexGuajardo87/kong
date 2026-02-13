@@ -1,0 +1,31 @@
+version: '2'
+services:
+  kong:
+    image: kong
+    restart: unless-stopped
+    environment:
+      KONG_PROXY_ACCESS_LOG: /dev/stdout
+      KONG_PROXY_ERROR_LOG: /dev/stdout
+      KONG_ADMIN_ACCESS_LOG: /dev/stdout
+      KONG_ADMIN_ERROR_LOG: /dev/stdout
+      KONG_PROXY_LISTEN: 0.0.0.0:80, 0.0.0.0:8443 http2 ssl
+      KONG_ADMIN_LISTEN: 0.0.0.0:8001, 0.0.0.0:8444 ssl
+      # Configuración para capturar IP real del cliente
+      KONG_REAL_IP_HEADER: X-Forwarded-For
+      KONG_REAL_IP_RECURSIVE: "on"
+      KONG_TRUSTED_IPS: 0.0.0.0/0,::/0
+      KONG_DATABASE: 'off'
+      KONG_DECLARATIVE_CONFIG: /opt/kong/config.yaml
+    ports:
+      - 80:80
+      - 443:8443
+      - 8001:8001
+      - 8444:8444
+    volumes:
+      - ./kong:/opt/kong
+    networks:
+        - kong-net
+        
+networks:
+  kong-net:
+    external: false
