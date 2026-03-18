@@ -1,4 +1,3 @@
-version: '2'
 services:
   kong:
     image: kong
@@ -28,4 +27,4 @@ services:
         
 networks:
   kong-net:
-    external: false
+    external: true
