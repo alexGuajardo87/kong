@@ -4,8 +4,8 @@ _transform: true
 services:
 
   #sistema de bibliote virtual
-  - name: ApiBiblitecaVirtual
-    url: http://biblioteca_virtual_backend:7778
+  - name: ApiBibliotecaVirtual
+    url: http://apibibliotecavirtual:7778
     connect_timeout: 300000
     read_timeout: 300000
     write_timeout: 300000
