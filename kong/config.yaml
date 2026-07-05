@@ -44,9 +44,9 @@ services:
         preserve_host: false
 
   - name: FrontendBibliotecaVirtual
-    url: http://angularbibliotecavirtual:4195
+    url: http://angularportalweb:4195
     routes:
-      - name: FrontendBibVirtual_route
+      - name: FrontendAngularPortalWeb_route
         paths:
           - /
         methods:
