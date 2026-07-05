@@ -43,7 +43,7 @@ services:
         strip_path: true
         preserve_host: false
 
-  - name: FrontendBibliotecaVirtual
+  - name: FrontendAngularPortalWeb
     url: http://angularportalweb:4195
     routes:
       - name: FrontendAngularPortalWeb_route
