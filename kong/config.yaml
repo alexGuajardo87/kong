@@ -92,8 +92,9 @@ certificates:
       KQR6/Uzqnb9l1RBl7vj3zntTNr4ACdngGY5ZIXlGyXdEoehhOw/e71qI
       -----END PRIVATE KEY-----
     
-    snis:
-      - name: bvirtual.uas.edu.mx
+snis:
+  - name: bvirtual.uas.edu.mx
+    certificate: bvirtual-cert
 
 services:
 
