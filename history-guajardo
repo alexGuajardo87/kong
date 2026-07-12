@@ -1,0 +1,1000 @@
+  558  docker compose up -d
+  559  docker network inspect kong-net
+  560  docker network ls
+  561  sudo docker network rm laravel
+  562  cd sistemas/
+  563  cd bibvirtual/
+  564  cd BibliotecaVirtualBackEnd/
+  565  git pull
+  566  cd ..
+  567  cd kong/
+  568  git pull
+  569  docker ps
+  570  docker stop kong-kong-1
+  571  docker ps
+  572  docker compose up -d
+  573  docker ps
+  574  docker compose -f prod.yml up -d
+  575  cd ..
+  576  cd BibliotecaVirtualBackEnd/
+  577  docker compose up -d 
+  578  cd ..
+  579  cd BibliotecaVirtualBackEnd/
+  580  cd ,,
+  581  cd ..
+  582  ls
+  583  BibliotecaDB/
+  584  cd BibliotecaDB/
+  585  docker compose up -d
+  586  git pull
+  587  docker compose up -d
+  588  ls
+  589  nano docker-compose.yml 
+  590  git pull
+  591  nano docker-compose.yml 
+  592  docker compose up -d
+  593  cd ,,
+  594  cd ..
+  595  cd BibliotecaVirtualBackEnd/
+  596  ls
+  597  cd backend/
+  598  ls
+  599  cd ApiBibliotecaVirtual/
+  600  ls
+  601  nano .env
+  602  docker network inspect kong-net
+  603  git pull
+  604  docker exec -it apibibliotecavirtual bash
+  605  docker compose up -d
+  606  cd ..
+  607  cd BibliotecaVirtualFrontEnd/
+  608  git pull
+  609  docker ps
+  610  ls
+  611  cd sistemas/
+  612  cd bibvirtual/
+  613  cd BibliotecaVirtualFrontEnd/
+  614  docker stop angularbibliotecavirtual
+  615  docker compose up -d --build 
+  616  git pull
+  617  docker stop angularbibliotecavirtual
+  618  docker compose up -d --build 
+  619  docker stop angularbibliotecavirtual
+  620  docker compose --build 
+  621  docker compose build 
+  622  docker compose up -d
+  623  docker stop angularbibliotecavirtual
+  624  docker compose up
+  625  git pull
+  626  docker compose up
+  627  npm list primeng
+  628  sudo list primeng
+  629  sudo apt install npm
+  630  npm list primeng
+  631  npm install primeng primeicons
+  632  npm list primeng
+  633  docker compose up
+  634  npm install primeicons
+  635  npm list primeng
+  636  git pull
+  637  docker compose up
+  638  git pull
+  639  docker compose up
+  640  git pull
+  641  docker compose up
+  642  git pull
+  643  docker compose up
+  644  git pull
+  645  docker compose up --build
+  646  git pull
+  647  docker compose up --build
+  648  git pull
+  649  docker compose up --build
+  650  git pull
+  651  docker compose up --build
+  652  git pull
+  653  docker compose up --build
+  654  git pull
+  655  docker compose up --build -d
+  656  git pull
+  657  logout
+  658  cd sistemas/
+  659  cd bibvirtual/
+  660  cd BibliotecaVirtualFrontEnd/
+  661  git pull
+  662  cd sistemas/
+  663  cd bibvirtual/
+  664  cd BibliotecaVirtualFrontEnd/
+  665  docker ps
+  666  git pul
+  667  git pull
+  668  cd sistemas/
+  669  cd bibvirtual/
+  670  cd BibliotecaVirtualFrontEnd/
+  671  ls
+  672  cd sistemas/
+  673  ñs
+  674  ls
+  675  cd bibvirtual/
+  676  ls
+  677  docker ps
+  678  ls
+  679  cd BibliotecaVirtualBackEnd/
+  680  ls
+  681  cd backend/
+  682  ls
+  683  cd ApiBibliotecaVirtual/
+  684  nano .env
+  685  LS
+  686  cd sistemas/
+  687  ls
+  688  cd bibvirtual/
+  689  ls
+  690  git clone https://github.com/alexGuajardo87/portainer.git
+  691  ls
+  692  cd portainer/
+  693  docker compose up -d
+  694  docker ps
+  695  cd ..
+  696  cd BibliotecaVirtualFrontEnd/
+  697  ls
+  698  git pull
+  699  ls
+  700  git status
+  701  rm node_modules/
+  702  sudo rm node_modules/
+  703  ls
+  704  sudo rm -rf node_modules/
+  705  ls
+  706  sudo rm package.json 
+  707  sudo rm package-lock.json 
+  708  ls
+  709  git pull
+  710  ls
+  711  docker compose down
+  712  docker compose -f prod.yml up
+  713  docker compose -f prod.yml up -d
+  714  docker ps
+  715  ls
+  716  cd frontend/
+  717  ls
+  718  cd FrontBibliotecaVirtual/
+  719  ls
+  720  cd dist
+  721  ls
+  722  cd mi-app/
+  723  ls
+  724  cd browser/
+  725  ls
+  726  cd ..
+  727  ls
+  728  cd ..
+  729  ng build
+  730  docker exec -it angularbibliotecavirtual bash
+  731  docker exec -it angularbibliotecavirtual sh
+  732  git pull
+  733  sudo chown -R devroot:devroot frontend/FrontBibliotecaVirtual/dist
+  734  ls
+  735  cd dist/
+  736  ls
+  737  cd ..
+  738  ls
+  739  chmod -R 755 frontend/FrontBibliotecaVirtual/dist
+  740  ls
+  741  git pull
+  742  sudo rm .gitignore 
+  743  sudo git pull
+  744  git pull
+  745  ls
+  746  nano .gitignore 
+  747  git checkout -- frontend/FrontBibliotecaVirtual/.gitignore
+  748  git pull
+  749  git status
+  750  git add .
+  751  git commit -m "se arregla cambio"
+  752  git push
+  753  git pull origin main
+  754  git pull --rebase origin main
+  755  git push origin main
+  756  rm -rf frontend/FrontBibliotecaVirtual/dist
+  757  ls
+  758  sudo rm -rf frontend/FrontBibliotecaVirtual/dist
+  759  ls
+  760  cd dist/
+  761  ls
+  762  cd mi-app/
+  763  ls
+  764  cd browser/
+  765  ls
+  766  cd ..
+  767  ls
+  768  git pull
+  769  sudo rm -rf dist
+  770  ls
+  771  git pull
+  772  git rm -r --cached frontend/FrontBibliotecaVirtual/dist
+  773  ls
+  774  git pull
+  775  git status
+  776  git rebase --continue
+  777  git pull
+  778  git pull --rebase origin main
+  779  git add .
+  780  git rebase --continue
+  781  git push --force origin main
+  782  git pull
+  783  ls
+  784  ng build
+  785  npm install -g @angular/cli
+  786  ng build
+  787  docker exec -it angularbibliotecavirtual sh
+  788  cd ..
+  789  docker exec -it angularbibliotecavirtual sh
+  790  docker exec -it -w / angularbibliotecavirtual sh
+  791  sudo chown -R $USER:$USER 
+  792  sudo chown -R $USER:$USER .
+  793  rm -rf node_modules
+  794  rm -rf package-lock.json
+  795  ls
+  796  npm install
+  797  npx ng build
+  798  ls
+  799  cd frontend/
+  800  ls
+  801  cd FrontBibliotecaVirtual/
+  802  ls
+  803  rm -rf node_modules
+  804  ls
+  805  rm -rf dist
+  806  ls
+  807  rm -rf package-lock.json
+  808  ls
+  809  sudo chown -R devroot:devroot .
+  810  npm install
+  811  ls
+  812  cd sistemas/
+  813  ls
+  814  cd bibvirtual/
+  815  ls
+  816  cd BibliotecaVirtualFrontEnd/
+  817  ls
+  818  ng build
+  819  sudo apt install
+  820  ng build
+  821  sudo apt install ng-common
+  822  ng build
+  823  ls
+  824  cd sistemas/
+  825  ls
+  826  cd bibvirtual/
+  827  ls
+  828  cd BibliotecaVirtualFrontEnd/
+  829  ls
+  830  cd frontend/
+  831  ls 
+  832  cd FrontBibliotecaVirtual/
+  833  ng build
+  834  ls
+  835  cd sistemas/
+  836  ls
+  837  cd bibvirtual/
+  838  ls
+  839  cd BibliotecaVirtualFrontEnd/
+  840  ls
+  841  cd frontend/
+  842  ls
+  843  cd FrontBibliotecaVirtual/
+  844  ng builf
+  845  ls
+  846  cd sistemas/
+  847  ls
+  848  cd bibvirtual/
+  849  ls
+  850  cd BibliotecaVirtualFrontEnd/
+  851  ls
+  852  cd frontend/
+  853  ls
+  854  cd FrontBibliotecaVirtual/
+  855  ls
+  856  ng build --configuration production
+  857  ls
+  858  cd sistemas/
+  859  ls
+  860  cd bibvirtual/
+  861  ls
+  862  cd BibliotecaVirtualFrontEnd/
+  863  node -v
+  864  npm -v
+  865  ls
+  866  cd frontend/
+  867  ls
+  868  cd FrontBibliotecaVirtual/
+  869  npm install -g @angular/cli
+  870  sudo npm install -g @angular/cli
+  871  npx ng build
+  872  ng build
+  873  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+  874  source ~/.bashrc
+  875  npm -v
+  876  node -v
+  877  export NVM_DIR="$HOME/.nvm"
+  878  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+  879  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+  880  nvm install 20
+  881  nvm use 20
+  882  node -v
+  883  ng build
+  884  ls
+  885  cd dist/
+  886  ls
+  887  cd mi-app/
+  888  ls
+  889  cd browser/
+  890  ls
+  891  cd ..
+  892  docker compose down
+  893  docker compose up -d
+  894  cd ..
+  895  ls
+  896  nano prod.yml
+  897  docker compose down
+  898  docker compose -f prod.yml up 
+  899  ls
+  900  cd sistemas/
+  901  ls
+  902  cd bibvirtual/
+  903  ls
+  904  git clone https://github.com/alexGuajardo87/BibliotecaVirtualArchivos.git
+  905  ls
+  906  cd BibliotecaVirtualArchivos/
+  907  ls
+  908  docker compose up -d
+  909  cd ..
+  910  cd BibliotecaVirtualFrontEnd/
+  911  git pull
+  912  sudo rm frontend/FrontBibliotecaVirtual/dist/mi-app/3rdpartylicenses.txt
+  913  git pull
+  914  sudo rm frontend/FrontBibliotecaVirtual/dist/mi-app/browser/index.html
+  915  git pull
+  916  sudo rm frontend/FrontBibliotecaVirtual/package-lock.json
+  917  git pull
+  918  ls
+  919  cd frontend/
+  920  ls
+  921  cd FrontBibliotecaVirtual/
+  922  ls
+  923  ng build
+  924  ls
+  925  cd sistemas/
+  926  ls
+  927  cd bibvirtual/
+  928  ls
+  929  cd BibliotecaVirtualArchivos/
+  930  ls
+  931  cd backend/
+  932  ls
+  933  cd ApiArchivosBibliotecaVirtual/
+  934  ls
+  935  cd storage/
+  936  ls
+  937  cd app/
+  938  ñs
+  939  ls
+  940  cd private/
+  941  ls
+  942  cd UnidadesAcademicas/
+  943  ls
+  944  cd UnidadesAcademicas/
+  945  ls
+  946  sudo cd UnidadesAcademicas/
+  947  cd UnidadesAcademicas/
+  948  sudo -s
+  949  ls
+  950  cd sistemas/
+  951  ls
+  952  cd bibvirtual/
+  953  ls
+  954  cd BibliotecaVirtualBackEnd/
+  955  ls
+  956  cd backend/
+  957  ls
+  958  cd ApiBibliotecaVirtual/
+  959  ls
+  960  nano .env
+  961  ls
+  962  cd sistemas/
+  963  ls
+  964  cd bibvirtual/
+  965  ls
+  966  cd ..
+  967  mkdir koha
+  968  ls
+  969  cd koha/
+  970  ls
+  971  cd ..
+  972  cd bibvirtual/
+  973  ls
+  974  cd BibliotecaDB/
+  975  docker compose down
+  976  cd ..
+  977  cd BibliotecaVirtualArchivos/
+  978  docker compose down
+  979  cd ..
+  980  cd BibliotecaVirtualBackEnd/
+  981  docker compose down
+  982  cd ..
+  983  cd BibliotecaVirtualFrontEnd/
+  984  docker compose down
+  985  cd ,,
+  986  cd ..
+  987  cd kong/
+  988  docker compose down
+  989  cd ..
+  990  la
+  991  cd koha
+  992  git clone https://github.com/alexGuajardo87/koha-biblioteca-uas.git
+  993  ls
+  994  cd koha-biblioteca-uas/
+  995  docker compose up -d --build
+  996  docker exec -it koha bash
+  997  docker inspect --format="{{.NetworkSettings.Networks.bridge.IPAddress}}" eb688416d9a0
+  998  docker inspect eb688416d9a0 | grep -i IPAddress
+  999  docker run -d --name koha-phpmyadmin -e PMA_HOST=172.18.0.2 -e PMA_ARBITRARY=1 -e SessionSavePath=/tmp -p 8081:80 --restart unless-stopped phpmyadmin:latest
+ 1000  docker exec -it koha bash
+ 1001  docker stop koha-phpmyadmin
+ 1002  docker rm koha-phpmyadmin
+ 1003  docker run -d --name koha-phpmyadmin --network=kong-net -e PMA_HOST=172.18.0.2 -e PMA_ARBITRARY=1 -e SessionSavePath=/tmp -p 8081:80 --restart unless-stopped phpmyadmin:latest
+ 1004  sudo docker network ls
+ 1005  docker network rm kong-net
+ 1006  sudo docker network rm kong-net
+ 1007  docker network inspect kong-net
+ 1008  cc
+ 1009  cd koha
+ 1010  ls
+ 1011  docker compose down
+ 1012  docker stop koha-phpmyadmin
+ 1013  docker rm koha-phpmyadmin
+ 1014  cd ..
+ 1015  ls
+ 1016  cd ..
+ 1017  ls
+ 1018  cd bibvirtual/
+ 1019  ls
+ 1020  cd portainer/
+ 1021  docker compose down
+ 1022  docker compose up -d
+ 1023  cd ..
+ 1024  ñs
+ 1025  cd
+ 1026  cd ..
+ 1027  ls
+ 1028  cd devroot/
+ 1029  ls
+ 1030  cd sistemas/
+ 1031  ls
+ 1032  cd koha/
+ 1033  ls
+ 1034  cd koha-biblioteca-uas/
+ 1035  docker compose up -d
+ 1036  docker run -d --name koha-phpmyadmin --network=koha-net -e PMA_HOST=172.18.0.2 -e PMA_ARBITRARY=1 -e SessionSavePath=/tmp -p 8081:80 --restart unless-stopped phpmyadmin:latest
+ 1037  sudo docker network ls
+ 1038  sudo docker network create koha_net
+ 1039  sudo docker network ls
+ 1040  docker network inspect koha_net
+ 1041  sudo docker network rm koha_net
+ 1042  sudo docker network create koha-net
+ 1043  docker network inspect koha-net
+ 1044  cd ..
+ 1045  ls
+ 1046  docker compose down
+ 1047  cd koha-biblioteca-uas/
+ 1048  docker compose down
+ 1049  docker compose up -d
+ 1050  docker network inspect koha-net
+ 1051  service mariadb start
+ 1052  docker exec -it koha bash
+ 1053  docker compose up -d --force-recreate
+ 1054  service mariadb start
+ 1055  docker exec -it koha bash
+ 1056  docker volume ls
+ 1057  docker ps -a
+ 1058  docker compose down -v
+ 1059  git pull
+ 1060  cat docker-compose.yml 
+ 1061  cat Dockerfile 
+ 1062  docker compose up -d --build
+ 1063  git pull
+ 1064  docker compose up -d --build
+ 1065  docker exec -it koha bash
+ 1066  docker ps -a
+ 1067  docker logs koha
+ 1068  git pull
+ 1069  docker compose down -v
+ 1070  docker compose up -d --build
+ 1071  docker exec -it koha bash
+ 1072  docker exec -it koha bash -c "koha-create --create-db biblioteca && a2ensite biblioteca && apache2ctl restart && koha-start-zebra biblioteca"
+ 1073  docker exec -it koha bash -c "a2enmod mpm_itk && koha-create --create-db biblioteca"
+ 1074  docker exec -it koha bash
+ 1075  docker compose up -d
+ 1076  docker exec -it koha bash
+ 1077  apache2ctl restart && koha-start-zebra biblioteca
+ 1078  service apache2 start
+ 1079  docker exec -it koha bash
+ 1080  docker compose -d
+ 1081  docker compose up -d
+ 1082  git pull
+ 1083  docker compose up -d
+ 1084  docker exec -it koha bash
+ 1085  docker compose down
+ 1086  docker system prune -f
+ 1087  docker compose up -d
+ 1088  docker exec -it koha bash
+ 1089  grep -E "MYSQL_USER|MYSQL_PASSWORD|MARIADB_USER|MARIADB_PASSWORD" docker-compose.yml
+ 1090  docker exec -it koha cat /etc/koha/sites/biblioteca/koha-conf.xml
+ 1091  docker exec -it koha bash
+ 1092  docker compose down -v
+ 1093  git pull
+ 1094  docker compose up -d --buil
+ 1095  docker compose up -d --build
+ 1096  docker exec -it koha bash
+ 1097  docker compose down -v
+ 1098  docker compose up -d --build
+ 1099  docker compose down -v
+ 1100  docker compose build
+ 1101  docker compose down -v
+ 1102  docker compose up -d --build
+ 1103  docker exec -it koha bash
+ 1104  docker compose down -v
+ 1105  docker-compose up -d
+ 1106  docker compose up -d
+ 1107  ping db
+ 1108  docker exec -it koha ping db -c 4
+ 1109  docker exec -it koha getent hosts db
+ 1110  docker exec -it koha cat /etc/koha/sites/biblioteca/koha-conf.xml
+ 1111  docker exec -it koha
+ 1112  docker exec -it koha bash
+ 1113  docker compose down -v
+ 1114  docker compose exec -it koha bash
+ 1115  docker exec -it koha bash
+ 1116  docker compose up -d
+ 1117  docker exec -it koha bash
+ 1118  docker exec -i koha_db mysql -u koha_user -pkoha_pass koha_biblioteca < koha-structure.sql
+ 1119  docker exec -it koha find / -name "koha-structure.sql"
+ 1120  docker exec -it koha bash
+ 1121  docker compose down -v
+ 1122  git pull
+ 1123  docker compose up -d --build
+ 1124  docker compose build --no-cache
+ 1125  docker compose up -d
+ 1126  docker exec -it koha bash
+ 1127  docker compose down -v
+ 1128  docker compose build --no-cache
+ 1129  docker compose up 
+ 1130  docker compose up -d
+ 1131  docker exec -it koha bash
+ 1132  nano docker-compose.yml 
+ 1133  docker compose down -v
+ 1134  git pull
+ 1135  docker compose build --no-cache
+ 1136  docker compose up -d 
+ 1137  docker exec -it koha bahs
+ 1138  docker exec -it koha bash
+ 1139  docker compose down -v
+ 1140  git pull
+ 1141  cat Dockerfile 
+ 1142  docker compose build --no-cache
+ 1143  docker compose up -d
+ 1144  docker exec -it koha bash
+ 1145  docker compose down -v
+ 1146  git pull
+ 1147  docker compose build --no-cache
+ 1148  docker compose up -d
+ 1149  docker exec -it koha bash
+ 1150  docker compose down -v
+ 1151  docker compose up -d --build
+ 1152  docker exec -it koha bash
+ 1153  docker ps
+ 1154  docker stats
+ 1155  free -h
+ 1156  nproc
+ 1157  docker exec -it koha bash
+ 1158  docker compose down -v
+ 1159  git pull
+ 1160  docker compose -d --build
+ 1161  docker compose up -d --build
+ 1162  git pull
+ 1163  cat docker-compose.yml 
+ 1164  docker compose up -d --build
+ 1165  docker exec -it koha bash
+ 1166  docker stats
+ 1167  docker stats koha
+ 1168  docker inspect oha | grep -i memory
+ 1169  docker inspect koha | grep -i memory
+ 1170  docker inspect -f '{{.HostConfig.Memory}}' koha
+ 1171  docker ps
+ 1172  docker commit cc0b5b9426ec koha:v1-preinstalado
+ 1173  ls
+ 1174  docker ps
+ 1175  docker save -o kohav1.tar koha:v1-preinstalado
+ 1176  ls
+ 1177  docker ps
+ 1178  ls
+ 1179  cd sistemas/
+ 1180  ls
+ 1181  cd bibvirtual/
+ 1182  cd ..
+ 1183  ls
+ 1184  cd koha/
+ 1185  ls
+ 1186  cd koha-biblioteca-uas/
+ 1187  ls
+ 1188  docker exec -it koha bash
+ 1189  docker compose down -v
+ 1190  docker run -it koha:v1-preinstalado /bin/bash
+ 1191  docker down 
+ 1192  docker compose build
+ 1193  docker compose up -d
+ 1194  docker compose exec -it koha
+ 1195  docker compose exec -it koha bash
+ 1196  docker inspect koha-biblioteca --format='{{.State.OOMKilled}}'
+ 1197  docker inspect koha --format='{{.State.OOMKilled}}'
+ 1198  echo "SELECT value FROM systempreferences WHERE variable = 'Version';" | koha-mysql biblioteca
+ 1199  docker exec -it koha bash
+ 1200  docker compose down -v 
+ 1201  git pull
+ 1202  docker compose build
+ 1203  docker compose up -d
+ 1204  docker exec -it koha bash
+ 1205  docker compose down -v
+ 1206  docker compose build
+ 1207  docker compose down -v
+ 1208  git pull
+ 1209  docker compose build
+ 1210  docker exec -it koha bash
+ 1211  docker compose up -d
+ 1212  docker exec -it koha bash
+ 1213  docker compose down
+ 1214  docker compose down -v
+ 1215  docker compose up -d
+ 1216  docker compose exec -it koha bash
+ 1217  docker compose down -v
+ 1218  docker compose up 
+ 1219  docker compose down -v
+ 1220  docker compose build
+ 1221  docker compose up -d
+ 1222  docker compose exec -it koha bash
+ 1223  docker compose down -v
+ 1224  docker compose up -d
+ 1225  docker compose exec -it koha bash
+ 1226  docker compose down -v
+ 1227  git pull
+ 1228  cat start.sh 
+ 1229  docker compose build
+ 1230  git pull
+ 1231  docker compose build
+ 1232  git pull
+ 1233  docker compose build
+ 1234  git pull
+ 1235  docker compose build
+ 1236  docker compose up -d
+ 1237  docker exec -it koha bash
+ 1238  git pull
+ 1239  docker compose down -v 
+ 1240  docker compose build
+ 1241  git pull 
+ 1242  docker compose build
+ 1243  docker compose up -d
+ 1244  docker exec -it koha bash
+ 1245  docker compose down -v
+ 1246  docker compose build
+ 1247  docker compose up -d
+ 1248  docker compose down -v
+ 1249  git pull
+ 1250  docker compose build
+ 1251  docker compose up -d
+ 1252  docker exec -it koha bash
+ 1253  docker ps
+ 1254  docker compose up -d
+ 1255  docker exec -it koha bash
+ 1256  git pull
+ 1257  docker compose down -v
+ 1258  docker compose build
+ 1259  docker compose up -d
+ 1260  docker exec -it koha bash
+ 1261  cd sistemas/
+ 1262  ls
+ 1263  cd koha/
+ 1264  ls
+ 1265  cd koha-biblioteca-uas/
+ 1266  docker exec -it koha bash
+ 1267  docker compose down -v
+ 1268  git pull
+ 1269  docker compose build
+ 1270  docker compose up -d
+ 1271  docker exec -it koha bash
+ 1272  docker compose down -v
+ 1273  docker compose build
+ 1274  docker compose up -d
+ 1275  docker compose exec -it koha bash
+ 1276  docker compose down -v
+ 1277  docker compose build
+ 1278  docker compose up -d
+ 1279  docker exec -it koha bash
+ 1280  docker compose down
+ 1281  docker compose up -d
+ 1282  docker exec -it koha bash
+ 1283  docker compose down -v
+ 1284  git pull
+ 1285  docker compose build
+ 1286  docker compose up -d
+ 1287  car docker-compose.yml 
+ 1288  cat docker-compose.yml 
+ 1289  docker exec -it koha bash
+ 1290  docker compose down -v
+ 1291  exit
+ 1292  docker exec -it koha bash
+ 1293  cd sistemas/koha/koha-biblioteca-uas
+ 1294  git pull
+ 1295  docker compose build
+ 1296  docker exec -it koha bash
+ 1297  		chmod 644 /etc/koha/sites/biblioteca/koha-conf.xml
+ 1298  		chown -R biblioteca-koha:www-data /var/log/koha/biblioteca/
+ 1299  		chmod -R 775 /var/log/koha/biblioteca/
+ 1300  		chown -R biblioteca-koha:biblioteca-koha /etc/koha/sites/biblioteca/
+ 1301  		chown -R biblioteca-koha:www-data /var/cache/koha/biblioteca/
+ 1302  		chown -R biblioteca-koha:www-data /var/lib/koha/biblioteca/
+ 1303  		chmod -R 775 /var/cache/koha/biblioteca/templates/
+ 1304  		chown -R biblioteca-koha:www-data /var/lib/koha/biblioteca/
+ 1305  		chown -R biblioteca-koha:www-data /var/cache/koha/biblioteca/
+ 1306  		chown -R biblioteca-koha:www-data /var/log/koha/biblioteca/
+ 1307  		chown -R biblioteca-koha:www-data /etc/koha/sites/biblioteca/
+ 1308  		chmod -R 775 /var/lib/koha/biblioteca/
+ 1309  		chmod -R 775 /var/cache/koha/biblioteca/
+ 1310  		chmod -R 775 /var/log/koha/biblioteca/
+ 1311  chmod 644 /etc/koha/sites/biblioteca/koha-conf.xml
+ 1312  docker exec -it koha bash
+ 1313  ls
+ 1314  cd sistemas/
+ 1315  ls
+ 1316  cd koha/
+ 1317  ls
+ 1318  cd koha-biblioteca-uas/
+ 1319  ls
+ 1320  docker exec -it koha bash
+ 1321  docker compose down
+ 1322  docker compose up -d
+ 1323  docker exec -it koha bash
+ 1324  docker compose down -v
+ 1325  git pull
+ 1326  docker compose build
+ 1327  git pull
+ 1328  docker compose build
+ 1329  docker compose up -d
+ 1330  docker exec -it koha bash
+ 1331  docker log
+ 1332  docker compose down
+ 1333  docker compose up
+ 1334  docker compose down .v
+ 1335  docker compose down -v
+ 1336  docker compose build
+ 1337  docker compose up
+ 1338  dcoker compose down -v
+ 1339  git pull
+ 1340  docker compose build
+ 1341  docker compose up
+ 1342  docker compose down -v
+ 1343  git pull
+ 1344  docker compose build
+ 1345  docker compose up
+ 1346  git pull
+ 1347  docker compose build
+ 1348  docker compose up 
+ 1349  cat start.sh 
+ 1350  +
+ 1351  docker compose up
+ 1352  cat start.sh 
+ 1353  docker compose build
+ 1354  docker compose up
+ 1355  git pull
+ 1356  docker compose build
+ 1357  docker compose up
+ 1358  cat start.sh 
+ 1359  docker compose down -v
+ 1360  docker compose build
+ 1361  docker compose up
+ 1362  ls
+ 1363  cd sistemas/
+ 1364  ls
+ 1365  cd bibvirtual/
+ 1366  ls
+ 1367  cd ..
+ 1368  docker ps
+ 1369  cd ..
+ 1370  ls
+ 1371  cd sistemas/
+ 1372  ls
+ 1373  cd koha/
+ 1374  ls
+ 1375  cd koha-biblioteca-uas/
+ 1376  ls
+ 1377  docker compose down
+ 1378  cd ..
+ 1379  docker ps
+ 1380  cd ..
+ 1381  ls
+ 1382  cd bibvirtual/
+ 1383  ls
+ 1384  git clone https://github.com/alexGuajardo87/BibliotecaPortalWeb.git
+ 1385  ls
+ 1386  cd BibliotecaPortalWeb/
+ 1387  ls
+ 1388  cd ..
+ 1389  ls
+ 1390  cd kong/
+ 1391  ls
+ 1392  git pull
+ 1393  docker compose -f up prod.yml
+ 1394  docker compose -f  prod.yml up
+ 1395  cd .
+ 1396  cd ..
+ 1397  ls
+ 1398  cd BibliotecaPortalWeb/
+ 1399  ls
+ 1400  docker compose -f prod.yml -d
+ 1401  docker compose -f prod.yml up -d
+ 1402  docker ps
+ 1403  docker compose -f prod.yml up
+ 1404  ls
+ 1405  nano prod.yml 
+ 1406  git pull
+ 1407  nano prod.yml 
+ 1408  docker compose -f prod.yml up
+ 1409  sudo docker network ls
+ 1410  sudo docker network create kong-net
+ 1411  sudo docker network ls
+ 1412  docker compose -f prod.yml up
+ 1413  docker compose -f prod.yml up -d
+ 1414  cd ..
+ 1415  ls
+ 1416  cd kong/
+ 1417  ls
+ 1418  cd kong/
+ 1419  ls
+ 1420  nano config.yaml
+ 1421  git pull
+ 1422  nano config.yaml
+ 1423  docker compose -f prod.yml up -d
+ 1424  cd ..
+ 1425  docker compose -f prod.yml up -d
+ 1426  docker exec -it angularbibliotecavirtual ls -la /usr/share/nginx/html
+ 1427  docker exec -it angularportalweb ls -la /usr/share/nginx/html
+ 1428  ls
+ 1429  cd ..
+ 1430  ls 
+ 1431  cd bibvirtual/
+ 1432  ls
+ 1433  cd Biblioteca
+ 1434  cd BibliotecaPortalWeb/
+ 1435  ls
+ 1436  cd frontend/
+ 1437  ls
+ 1438  cd BibliotecaPortalWeb/
+ 1439  ls
+ 1440  cd dist/
+ 1441  ls
+ 1442  cd mi-app/
+ 1443  ls
+ 1444  cd browser/
+ 1445  ls
+ 1446  git pull
+ 1447  ls
+ 1448  sudo chown -R $USER:$USER ./frontend/BibliotecaPortalWeb/dist/
+ 1449  cd ..
+ 1450  ls
+ 1451  git pull
+ 1452  git add .
+ 1453  git commit -m "se agregao algo"
+ 1454  git push
+ 1455  git pull
+ 1456  git config pull.ff
+ 1457  git pull
+ 1458  git config pull.rebase false
+ 1459  git pull
+ 1460  sudo chown -R $USER:$USER ./frontend/BibliotecaPortalWeb/dist/
+ 1461  git merge --abort
+ 1462  git reset --hard origin/main
+ 1463  echo "/frontend/BibliotecaPortalWeb/dist/" >> .gitignore
+ 1464  git rm -r --cached frontend/BibliotecaPortalWeb/dist/
+ 1465  git add .gitignore
+ 1466  git commit -m "Excluir carpeta dist del control de versiones"
+ 1467  git push
+ 1468  git pull
+ 1469  cd /etc/apache2
+ 1470  ls
+ 1471  sudo systemctl status apache2
+ 1472  sudo systemctl status nginx
+ 1473  service --status-all | grep running
+ 1474  sudo ss -tlnp | grep ':80'
+ 1475  sudo systemctl status apache
+ 1476  sudo systemctl status nginx
+ 1477  pwd
+ 1478  cd ..
+ 1479  cd nginx
+ 1480  ls -l
+ 1481  cd /var/www/html
+ 1482  cd /var/www/
+ 1483  cd /var
+ 1484  ls
+ 1485  top
+ 1486  docker ps
+ 1487  ls /
+ 1488  cd /
+ 1489  ls
+ 1490  ls -l
+ 1491  EXIT
+ 1492  exit
+ 1493  ls
+ 1494  cd sistemas/
+ 1495  ls
+ 1496  cd bibvirtual/
+ 1497  ls
+ 1498  cd BibliotecaPortalWeb/
+ 1499  ls
+ 1500  git pull
+ 1501  docker compose down
+ 1502  docker ps
+ 1503  docker compose down
+ 1504  ls
+ 1505  docker ps
+ 1506  docker stop angularportalweb
+ 1507  docker down angularportalweb
+ 1508  docker compose -f prod.yml up
+ 1509  docker exec -it angularportalweb ls -lah /usr/share/nginx/html
+ 1510  docker compose -f prod.yml up -d
+ 1511  docker exec -it angularportalweb ls -lah /usr/share/nginx/html
+ 1512  docker exec -it angularportalweb cat /usr/share/nginx/html/index.html
+ 1513  docker compose down
+ 1514  docker image rm angularportalweb
+ 1515  docker compose build --no-cache
+ 1516  docker compose -f prod.yml up -d
+ 1517  docker exec -it angularportalweb cat /usr/share/nginx/html/index.html
+ 1518  ls -lah /usr/share/nginx/html
+ 1519  ls
+ 1520  cd for
+ 1521  ls
+ 1522  cd frontend/
+ 1523  ls
+ 1524  cd BibliotecaPortalWeb/
+ 1525  ls
+ 1526  cd dist/
+ 1527  ls
+ 1528  cd mi-app/
+ 1529  ls
+ 1530  cd browser/
+ 1531  ls
+ 1532  git pull
+ 1533  pwd
+ 1534  cd /var/www
+ 1535  cd /var
+ 1536  ls
+ 1537  docker container ls
+ 1538  docker exec -it nginx /bin/bash
+ 1539  pwdpwd
+ 1540  cd ..
+ 1541  ls
+ 1542  cd home
+ 1543  ls
+ 1544  cd devroot
+ 1545  ls
+ 1546  cd sistemas
+ 1547  ls
+ 1548  cd bibvirtual
+ 1549  ls
+ 1550  cd BibliotecaPortalWeb
+ 1551  ls
+ 1552  cd ..
+ 1553  cd kong
+ 1554  ls 
+ 1555  history
+ 1556  history | more
+ 1557  history > history-guajardo
