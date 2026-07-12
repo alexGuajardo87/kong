@@ -4,36 +4,16 @@ _transform: true
 services:
 
   #sistema de bibliote virtual
-  - name: ApiBibliotecaVirtual
-    url: http://apibibliotecavirtual:7778
+  - name: ApiBibliotecaPortalWeb
+    url: http://apibibliotecaportalweb:7778
     connect_timeout: 300000
     read_timeout: 300000
     write_timeout: 300000
     retries: 5
     routes:
-      - name: ApiBibVirtual_route
+      - name: ApiBibPortal_route
         paths:
-          - /api-bibvirtual
-        methods:
-          - GET
-          - POST
-          - PUT
-          - DELETE
-          - OPTIONS
-        strip_path: true
-        preserve_host: false
-
-  #sistema de bibliote virtual
-  - name: ApiArchivosBibliotecaVirtual
-    url: http://apiarchivosbibliotecavirtual:7779
-    connect_timeout: 300000
-    read_timeout: 300000
-    write_timeout: 300000
-    retries: 5
-    routes:
-      - name: ApiArchivosBibVirtual_route
-        paths:
-          - /api-archivosbibvirtual
+          - /api-bibportal
         methods:
           - GET
           - POST
