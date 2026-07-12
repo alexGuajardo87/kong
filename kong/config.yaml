@@ -2,7 +2,7 @@ _format_version: "2.1"
 _transform: true
 
 certificates:
-  - id: bvirtual-cert
+  - id: 4d7e9c1a-8f32-4e7b-a9c1-12d4f6e8a901
     cert: |
       -----BEGIN CERTIFICATE-----
       MIIDlDCCAxmgAwIBAgISBfClN1dsUqzbnH8Zf7Fw/zS8MAoGCCqGSM49BAMDMDMx
@@ -95,7 +95,7 @@ certificates:
     
 snis:
   - name: bvirtual.uas.edu.mx
-    certificate: bvirtual-cert
+    certificate: 4d7e9c1a-8f32-4e7b-a9c1-12d4f6e8a901
 
 services:
 
