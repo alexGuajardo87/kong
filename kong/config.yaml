@@ -127,5 +127,6 @@ services:
           - /
         methods:
           - GET
+          - HEAD
         strip_path: false
         preserve_host: false
