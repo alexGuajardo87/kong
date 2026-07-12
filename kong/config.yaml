@@ -84,12 +84,14 @@ certificates:
     cEaU/wvU6BUNMtcVquVGHp7itQeDth5j+XL3j4WJ2SABwzUl6OeYdgpIt/ITZa+p
     TT0mQ/r5XyA4MEAiabn7XJjvCERlF2dcn2wqJw+CreTkkQ2R
     -----END CERTIFICATE-----
+
     key: |
     -----BEGIN PRIVATE KEY-----
     MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQg1i52dobxd6GX33+G
     81eEI4CfFBUF2WPPmBDwYnlWJLehRANCAATYd/OikVQiLQh7envj9Au+IZbuX0/+
     KQR6/Uzqnb9l1RBl7vj3zntTNr4ACdngGY5ZIXlGyXdEoehhOw/e71qI
     -----END PRIVATE KEY-----
+    
     snis:
       - name: bvirtual.uas.edu.mx
 
