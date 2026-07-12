@@ -3,7 +3,7 @@ _transform: true
 
 certificates:
   - id: bvirtual-cert
-      cert: |
+    cert: |
       -----BEGIN CERTIFICATE-----
       MIIDlDCCAxmgAwIBAgISBfClN1dsUqzbnH8Zf7Fw/zS8MAoGCCqGSM49BAMDMDMx
       CzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNZ
