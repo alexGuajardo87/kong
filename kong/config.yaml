@@ -130,3 +130,22 @@ services:
           - HEAD
         strip_path: false
         preserve_host: false
+
+  - name: N8N
+    url: http://n8n:5678
+    connect_timeout: 300000
+    read_timeout: 300000
+    write_timeout: 300000
+    retries: 5
+    routes:
+      - name: N8N_route
+        hosts:
+          - n8n.bvirtual.uas.edu.mx
+        methods:
+          - GET
+          - POST
+          - PUT
+          - DELETE
+          - OPTIONS
+        strip_path: false
+        preserve_host: true
