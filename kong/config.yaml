@@ -145,6 +145,7 @@ services:
           - GET
           - POST
           - PUT
+          - PATCH
           - DELETE
           - OPTIONS
         strip_path: false
