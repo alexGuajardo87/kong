@@ -39,8 +39,8 @@ services:
       KONG_PG_DATABASE: postgres
       KONG_PG_USER: kong
       KONG_PG_PASSWORD: kong
-      KONG_SSL_CERT: /etc/letsencrypt/live/bvirtual.uas.edu.mx/fullchain.pem
-      KONG_SSL_CERT_KEY: /etc/letsencrypt/live/bvirtual.uas.edu.mx/privkey.pem
+      KONG_SSL_CERT: /ssl/fullchain.pem
+      KONG_SSL_CERT_KEY: /ssl/privkey.pem
     depends_on:
       - kong-db
       - kong-migration
