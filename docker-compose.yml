@@ -29,8 +29,8 @@ services:
       KONG_PROXY_ERROR_LOG: /dev/stdout
       KONG_ADMIN_ACCESS_LOG: /dev/stdout
       KONG_ADMIN_ERROR_LOG: /dev/stdout
-      KONG_PROXY_LISTEN: 0.0.0.0:80, 0.0.0.0:8443 http2 ssl
-      KONG_ADMIN_LISTEN: 0.0.0.0:8001, 0.0.0.0:8444 ssl
+      KONG_PROXY_LISTEN: "0.0.0.0:80, 0.0.0.0:8443 http2 ssl"
+      KONG_ADMIN_LISTEN: "0.0.0.0:8001, 0.0.0.0:8444 ssl"
       KONG_LUA_SSL_TRUSTED_CERTIFICATE: system
       KONG_PG_HOST: kong-db
       KONG_PG_PORT: 5432
@@ -39,8 +39,8 @@ services:
       KONG_PG_DATABASE: postgres
       KONG_PG_USER: kong
       KONG_PG_PASSWORD: kong
-      #KONG_SSL_CERT: /ssl/ssl/kong-default-ecdsa.crt
-      #KONG_SSL_CERT_KEY: /ssl/ssl/kong-default-ecdsa.key
+      KONG_SSL_CERT: /etc/letsencrypt/live/bvirtual.uas.edu.mx/fullchain.pem
+      KONG_SSL_CERT_KEY: /etc/letsencrypt/live/bvirtual.uas.edu.mx/privkey.pem
     depends_on:
       - kong-db
       - kong-migration
@@ -54,7 +54,7 @@ services:
       - kong-net
     volumes:
       - ./certs:/ssl
-  
+      - /etc/letsencrypt:/etc/letsencrypt:ro
   konga:
     image: pantsel/konga
     environment:
@@ -70,12 +70,6 @@ services:
       - kong-net
     links:
       - kong:kong
-    
 networks:
   kong-net:
     external: false
-
-    
-
-
-
